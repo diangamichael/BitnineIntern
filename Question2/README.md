@@ -32,7 +32,7 @@ gcc -o recurrence_solution recursive.c or memoization.c or bottomup.c
 Note: Make sure you have a C compiler installed on your system. If you don't have one, you can install GCC (GNU Compiler Collection) or an equivalent compiler for your platform.
 
 
-Differences, Advantages, and Disadvantages:
+# Differences, Advantages, and Disadvantages:
 
 Recursive Function Approach:
 
