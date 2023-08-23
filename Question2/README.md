@@ -32,6 +32,32 @@ gcc -o recurrence_solution recursive.c or memoization.c or bottomup.c
 Note: Make sure you have a C compiler installed on your system. If you don't have one, you can install GCC (GNU Compiler Collection) or an equivalent compiler for your platform.
 
 
+Differences, Advantages, and Disadvantages:
+
+Recursive Function Approach:
+
+Advantages: 
+1. Simple and easy to understand.
+Disadvantages: 
+1. Inefficient for large values of n due to repeated calculations (exponential time complexity).
+
+Memoization (Top-down Dynamic Programming) Approach:
+
+Advantages: 
+1. Improves efficiency by avoiding redundant calculations. 
+2. Suitable for larger values of n.
+Disadvantages: 
+1. Requires extra memory for storing memoization array. 
+2. Still recursive, so there's a potential for stack overflow for very large n.
+
+Bottom-up Dynamic Programming Approach:
+
+Advantages: 
+1. Efficient and uses less memory compared to the memoization approach. 
+2. Avoids recursion and stack overflow issues.
+Disadvantages: 
+1. Requires iterating from 3 to n, which might not be as intuitive as recursive approaches.
+
 
 
 
